@@ -8,34 +8,31 @@ This site is designed to look like a fictional site This site is designed to loo
 
 1.  **Top Page**
 
-     ![topPage-sp](src/images/top-sp.png)
-     ![topPage-sp](src/images/top-pc.png)
+     ![topPage-sp](images/top-sp.png)
+     ![topPage-sp](images/top-pc.png)
 
 2.  **Nav Page**
 
-    ![topPage-sp](src/images/nav-sp.png)
+    ![topPage-sp](images/nav-sp.png)
 
 ## Description
 
-This is a fictional site for a fitness gym, created in Gatsby.
+This is a fictional site for a CanDay Shop, created in HTML.
 
 ## What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the top-level files and directories you'll see in a HTML project.
 
     .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
+    ├── css
+    ├── images
+    ├── js
+    ├── sass
+    ├── README.md
+    ├── gulpfile.js
     ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+    ├── index.html
+    └── package.json
 
 
 <!-- AUTO-GENERATED-CONTENT:END -->
