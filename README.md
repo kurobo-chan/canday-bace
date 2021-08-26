@@ -8,12 +8,12 @@ This site is designed to look like a fictional site This site is designed to loo
 
 1.  **Top Page**
 
-     ![topPage-sp](images/top-sp.png)
-     ![topPage-sp](images/top-pc.png)
+     ![topPage-sp](images/top-sp.jpg)
+     ![topPage-sp](images/top-pc.jpg)
 
 2.  **Nav Page**
 
-    ![topPage-sp](images/nav-sp.png)
+    ![topPage-sp](images/nav-sp.jpg)
 
 ## Description
 
