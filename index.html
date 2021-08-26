@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karafuru</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/hannari.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="body" onscroll="scroll()">
+    <header class="partsGrid header">
+      <div class="header-inner grid12">
+        <p class="siteName">からふる</p>
+        <div class="navBlock">
+          <button class="navBtn" type="button" onclick="navFunc()">
+            <span class="navBtn-bar"></span>
+            <span class="sr-only">MENU</span>
+          </button>
+          <nav class="nav">
+            <ul class="navMenu">
+              <li><a href="index.html">トップ</a></li>
+              <li class="dropdown dropbtn" onclick="dropFunc()">
+               <span>カラフルとは</span
+                  ><span class="icon dropbtn-icon"
+                    ><img src="/images/arrow2.svg" alt="" /></span
+                >
+                <ul class="dropdown-content" id="dropdownBox">
+                  <li>
+                    <a href="#" class="dropbtn"
+                      ><span class="icon"
+                        ><img src="/images/arrow.svg" alt="" /></span
+                      ><span>カラフルの歴史</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="dropbtn"
+                      ><span class="icon"
+                        ><img src="/images/arrow.svg" alt="" /></span
+                      ><span>飴作り</span></a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">商品一覧</a></li>
+              <li><a href="#">店舗案内</a></li>
+              <li><a href="#">お知らせ</a></li>
+            </ul>
+            <ul class="navLink">
+              <li>
+                <a href="#" class="onlineShopping"
+                  ><span class="icon"><i class="fas fa-shopping-cart"></i></span
+                  ><span>オンラインショップ</span></a
+                >
+              </li>
+              <li class="subLink">
+                <a href="#">会社概要</a><a href="#">お問い合わせ</a>
+              </li>
+              <li class="snsBlock">
+                <a href="#"
+                  ><span class="sr-only">Facebook</span
+                  ><span class="icon"><i class="fab fa-facebook"></i></span
+                ></a>
+                <a href="#"
+                  ><span class="sr-only">Instagram</span
+                  ><span class="icon"><i class="fab fa-instagram"></i></span
+                ></a>
+                <a href="#"
+                  ><span class="sr-only">Twitter</span
+                  ><span class="icon"><i class="fab fa-twitter"></i></span
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="slide" id="makeImg">
+        <img src="/images/heroA.jpg" alt="" />
+        <img src="/images/heroB.jpg" alt="" />
+        <img src="/images/heroC.jpg" alt="" />
+      </div>
+      <div class="heroInner">
+        <h1>
+          <span>いつでも思い出せる <br />キャンディの味</span>
+        </h1>
+        <p class="siteName">からふる</p>
+        <a href="#scroll" class="heroArrow"
+          ><img src="/images/hero-btn.svg" alt=""
+        /></a>
+      </div>
+    </div>
+    <main class="main" id="scroll">
+      
+        <section class="message" id="target">
+          <div class="partsGrid">
+            <div class="grid12 contents">
+              <h2 class="bar title">
+                <span>はじまりは1つの キャンディでした</span>
+              </h2>
+              <p>
+                私たちの町には古くから甘味処がたくさんあり、カラフルで、かわいいキャンディもたくさん作られています。見ているだけでワクワクしてくる。楽しくなる。そんな気持ちを共有出来たらと思って立ち上げたのが、このサイトです。
+              </p>
+              <figure class="figure">
+                <img
+                  src="/images/msg.jpg"
+                  alt="はじまりは1つの キャンディでした"
+                />
+              </figure>
+              <ul class="linkBlock">
+                <li>
+                  <a href="#"
+                    ><span class="icon"
+                      ><img src="/images/arrow.svg" alt="" /></span
+                    ><span>カラフルの歴史</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="icon"
+                      ><img src="/images/arrow.svg" alt="" /></span
+                    ><span>飴作り</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="news" id="target2">
+          <div class="partsGrid">
+            <div class="grid12 contents">
+              <h2 class="bar title"><span>お知らせ</span></h2>
+              <div class="posts">
+                <a href="#">
+                  <article class="post">
+                    <time class="time">2020/01/11</time>
+                    <h3 class="postTitle">
+                      ◆ テレビ放送のお知らせ
+                      「XXXXXXXXXXX」1月23日水曜日朝8時(XXXXXXXX）
+                    </h3>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="post">
+                    <time class="time">2020/01/11</time>
+                    <h3 class="postTitle">
+                      ◆ テレビ放送のお知らせ
+                      「XXXXXXXXXXX」1月23日水曜日朝8時(XXXXXXXX）
+                    </h3>
+                  </article>
+                </a>
+                <a href="#">
+                  <article class="post">
+                    <time class="time">2020/01/11</time>
+                    <h3 class="postTitle">
+                      ◆ テレビ放送のお知らせ
+                      「XXXXXXXXXXX」1月23日水曜日朝8時(XXXXXXXX）
+                    </h3>
+                  </article>
+                </a>
+              </div>
+              <div class="btnBlock">
+                <a href="#" class="moreBtn"
+                  ><span>more</span
+                  ><span class="icon"
+                    ><img src="/images/arrow.svg" alt=""
+                  /></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      <section class="goods">
+        <div class="partsGrid">
+          <div class="grid12 contents">
+            <h2 class="bar title"><span>商品一覧</span></h2>
+            <p>
+              私たちがお届け出来るキャンディをご紹介します。古今東西のキャンディが揃ています。
+            </p>
+            <div class="figures">
+              <figure class="card">
+                <img src="/images/goodsA.jpg" alt="" />
+              </figure>
+              <figure class="card">
+                <img src="/images/goodsB.jpg" alt="" />
+              </figure>
+              <figure class="card">
+                <img src="/images/goodsC.jpg" alt="" />
+              </figure>
+              <figure class="card">
+                <img src="/images/goodsD.jpg" alt="" />
+              </figure>
+              <figure class="card">
+                <img src="/images/goodsE.jpg" alt="" />
+              </figure>
+              <figure class="card">
+                <img src="/images/msg.jpg" alt="" />
+              </figure>
+              <figure class="card">
+                <img src="images/heroC.jpg" alt="" />
+              </figure>
+              <div class="card btnBlock">
+                <a href="#" class="goodsMore"
+                  ><span class="icon"
+                    ><img src="/images/arrow.svg" alt="" /></span
+                  ><span> 商品一覧は<br />こちら </span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="back">
+          <img src="/images/background.jpg" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="partsGrid">
+        <div class="grid12 contents footTop">
+          <p class="siteName">からふる</p>
+          <ul class="address">
+            <li>からふる本舗</li>
+            <li>〒500-1111</li>
+            <li>京都府山寺市中央区3-3-12</li>
+            <li>TEL:000-000-000</li>
+          </ul>
+        </div>
+        <div class="grid12 footEnd">
+          <ul class="linkBlock">
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+          <ul class="snsBlock">
+            <li>
+              <a href="#"
+                ><span class="sr-only">Facebook</span
+                ><span class="icon"><i class="fab fa-facebook"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span class="sr-only">Twitter</span
+                ><span class="icon"><i class="fab fa-twitter"></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span class="sr-only">Instagram</span
+                ><span class="icon"><i class="fab fa-instagram"></i></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyLight">
+          <p>©2020 karafuru</p>
+        </div>
+      </div>
+      <a href="#body" class="topBtn" id="topBtn"
+        ><span class="icon"><img src="/images/arrow2.svg" alt="" /></span
+        ><span>TOP</span></a
+      >
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
